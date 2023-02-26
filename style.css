@@ -1,0 +1,94 @@
+body {
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: blue;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 20px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: floralwhite;
+	text-decoration: none;
+}
+
+section {
+	padding: 50px;
+	display: block;
+}
+
+section h2 {
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
+section ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+section li {
+	margin-bottom: 20px;
+}
+
+section a {
+	color: red;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	margin-bottom: 10px;
+	font-weight: bold
+}
+
+#about-me{
+	background-color: red;
+	color: aliceblue;
+}
+.my-projects{
+	background-color: blue;
+	color: #fff;
+}
+
+#contact-me form label{
+	text-align: center;
+}
+
+#contact-me form .btn-submit{
+	width: 200px;
+	background-color: blue;
+	color: #fff;
+	height: 100px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+	font-size: 20pt;
+	border-radius: 20px;
+	border-color:red;
+	border-width: 6px;
+	border-style: dotted;
+}
